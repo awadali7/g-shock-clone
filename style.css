@@ -152,13 +152,11 @@ nav{
 }
 
 .contact{
-    position: relative;
-    top: 174px;
+    margin-top: 218px;
     font-size: 36px;
-    font-weight: 600;
-    left: 53px;
-    margin-top: 40px;
-    margin-bottom: 140px;
+    font-weight: 900;
+    position: relative;
+    left: 51px;
 
 }
 
