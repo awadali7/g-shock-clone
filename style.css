@@ -1,0 +1,286 @@
+@font-face {
+    font-family: futura-pt;
+    src: url("./fonts/futura/futura\ light\ bt.ttf")
+  }
+
+@font-face {
+    font-family: futura-pt-md;
+    src:url("./fonts/futura/Futura\ Bold\ font.ttf")
+}
+
+
+
+body{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: futura-pt, sans-serif;
+
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    position: sticky;
+    top:0;
+    z-index: 1;
+}
+
+
+.nav-left{
+    display: flex;
+    width: 60%;
+    
+}
+
+.nav-left img{
+    width: 103px;   
+    margin-left: 30px;
+}
+
+.nav-left ul{
+    
+    display: flex;
+    margin-left: 10px;
+}
+
+.nav-left ul a{
+    text-decoration: none;
+    color:#fff;
+    font-family: futura-pt, sans-serif;
+    font-size: 12px;
+    margin-left:10px;
+    margin-right: 10px;
+    margin-top: -10px;
+    font-weight: 600;
+}
+
+.nav-left ul a li{
+    list-style-type: none;
+}
+
+
+.nav-right ul{
+    display: flex;
+    align-items: center;
+}
+
+.nav-right ul a{
+    text-decoration: none;
+    color:#fff;
+    font-family: futura-pt, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.nav-right ul a li{
+    list-style-type: none;
+}
+
+
+
+
+.dropdown li{
+    cursor: pointer;
+    list-style-type: none;
+    color: #fff;
+    display: block;
+    font-family: futura-pt, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.dropdown:hover .dropdown-content ul{
+    display: block;
+}
+
+.dropdown-content ul{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #000;
+    padding: 10px;
+    margin-top: 23px;
+    margin-left: -6vw;
+    display: none;
+}
+
+
+
+
+.dropdown-content ul li{
+    padding:10px;
+}
+
+.nav-search{
+    border:1px solid #fff;
+    padding:5px;
+    margin-left: 20px;
+    width: 100%;
+}
+
+.nav-search input{
+    border:none;
+    outline:none;
+    background-color: black;
+    color:white;
+}
+
+.nav-search input::placeholder{
+    color:white;
+}
+
+
+.nav-search i{
+    color:white !important;
+}
+
+/* short section */
+.short-section{
+    text-align: center;
+}
+
+
+/* Main Section */
+.main-section{
+    background-color: #FFFFFF;
+    margin-top: -170px;
+}
+
+.contact{
+    position: relative;
+    top: 174px;
+    font-size: 36px;
+    font-weight: 600;
+    left: 53px;
+    margin-top: 40px;
+    margin-bottom: 140px;
+
+}
+
+.main-section__textadd{
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.main-section__textadd h1{
+    font-family: futura-pt-md,sans-serif;
+    color:#000;
+    letter-spacing: 1.2px;
+    line-height: 1.2;
+    display: inline-block;
+    font-weight: 800;
+}
+
+/* New Watches , Best Selling watches*/
+.new_watches{
+    margin-top: 30px;
+
+    margin-bottom: 100px;
+}
+
+.new_watches h1{
+    text-align: center;
+    font-family: futura-pt-md,sans-serif;
+    line-height: 1.4;
+    font-weight: 900;
+    font-size: 40px;
+    padding-top: 10pc;
+}
+
+.new_watches__watches{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left:7vw;
+    padding-right: 7vw;
+}
+
+.new_watches__img{
+    font-family: futura-pt,sans-serif;   
+}
+
+.new_watches__img img{
+    max-width: 110px;
+}
+
+.new_watches__img p{
+    text-align: center;
+    margin-top: -10px;
+}
+
+.new_watches__img a{
+    margin-left: 20px;
+    text-decoration-color: black;
+    color:black;    
+    font-size: 14px;
+}
+
+/* Footer */
+footer{
+    background-color: #000;
+    font-family: futura-pt,sans-serif;   
+    color: #fff;
+    margin-bottom: -30px;
+}
+
+
+
+.section_one{
+    display: flex;
+   padding-top: 10vh;
+}
+
+.section_one h1{
+    margin-left: 10vw;
+    font-size: 1vw;
+    font-weight: 900;
+    font-family: futura-pt-md;
+    margin-top: 20px;
+}
+
+.section_one_row{
+    margin-left:5vw;
+}
+
+.section_one_row p{
+    font-weight: 800;
+    font-size: 1vw;
+}
+
+
+.section_two{
+    display: flex;
+}
+
+.section_two h1{
+    text-align: right;
+    flex:0.4;
+    margin-top: 30px;
+    font-size: 1.2vw;
+}
+
+.section_two_row{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8vh;
+}
+
+.socialmedia i{
+    margin-left:10px;
+    margin-right: 10px;
+}
+
+.copyright{
+    display: flex; 
+}
+
+.copyright img{
+    max-width:80px;
+    margin-bottom: 100px;
+}
